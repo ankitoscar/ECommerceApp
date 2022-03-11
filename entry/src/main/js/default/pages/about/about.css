@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+}
+
+.header {
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+    justify-content: center;
+}
+
+.nav {
+    flex-direction: row;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.nav-items{
+    margin: 5px;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    font-family: sans-serif;
+}
+
+.description {
+    font-size: 15px;
+    text-align: center;
+    font-family: sans-serif;
+}

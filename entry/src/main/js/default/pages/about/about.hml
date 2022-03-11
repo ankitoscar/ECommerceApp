@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="header">
+        <text class="title">About Lappoint</text>
+    </div>
+    
+    <image src="/common/images/about_img.png" style="margin-top: 0px;">
+        
+    </image>
+    
+    <div>
+        <text class="description">
+            Your one stop solution for buying the best laptops and getting the best care for them.
+        </text>
+    </div>
+    
+    <div class="nav">
+    <button class="nav-items" type="capsule" value="Home" onclick="index"></button>
+    <button class="nav-items" type="capsule" value="Contact" onclick="contact"></button>
+    <button class="nav-items" type="capsule" value="Build" onclick="build"></button>
+    </div>
+</div>

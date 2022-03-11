@@ -1,0 +1,23 @@
+<div class="container">
+    <div style="flex-direction: column;">
+        <div>
+            <text class="title">
+                Contact us
+            </text>
+        </div>
+        <div style="flex-direction: column; margin-left: 10px;">
+            <text>
+                Phone no : +91 9871236540
+            </text>
+            <text>
+                Email : lappoint.work@gmail.com
+            </text>
+        </div>
+    
+        <div class="nav">
+            <button class="nav-items" type="capsule" value="Home" onclick="index"></button>
+            <button class="nav-items" type="capsule" value="About" onclick="about"></button>
+            <button class="nav-items" type="capsule" value="Build" onclick="build"></button>
+        </div>
+    </div>
+</div>

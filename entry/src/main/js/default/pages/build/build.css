@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 454px;
+    height: 454px;
+}
+
+.title {
+    font-size: 40px;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    color: black;
+    position: fixed;
+    margin-left: 75px;
+}
+
+.main-text  {
+    font-size: 30px;
+    color: black;
+    opacity: 0.85;
+    align-content: center;
+}
+
+.config {
+    flex-direction: column;
+}

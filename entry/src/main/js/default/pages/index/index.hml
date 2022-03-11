@@ -1,0 +1,13 @@
+<div class="container">
+    <text class="title">Lappoint</text>
+    
+    <image class="body-image" src="/common/images/top_img.png"></image>
+
+    <text class="main-text">Computer and Laptop shop</text>
+
+    <div class="nav">
+        <button class="nav-items" type="capsule" value="About" onclick="about"></button>
+        <button class="nav-items" type="capsule" value="Build" onclick="build"></button>
+        <button class="nav-items" type="capsule" value="Contact" onclick="contact"></button>
+    </div>
+</div>
