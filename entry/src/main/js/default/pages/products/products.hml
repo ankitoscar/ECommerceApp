@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="title">
+        <text>Products</text>
+    </div>
+    <button type="capsule" value="Home" onclick="index"></button>
+    <div class="card-container">
+        <div class="card">
+            <image class="card-image" src="/common/images/71nTZkJByLL._SL1500_.jpg"></image>
+            <div class="card-details">
+                <text class="card-details-text">Lenovo Ideapad</text>
+                <text class="card-details-text">Price: $300</text>
+                <button class="btn" type="capsule" value="Add to Cart" onclick="cart"></button>
+            </div>
+        </div>
+        <div class="card">
+            <image class="card-image" src="/common/images/Swift-X-sfx16-52g-steel-gray-3d-modelmain.png"></image>
+            <div class="card-details">
+                <text class="card-details-text">Ryzen Laptop</text>
+                <text class="card-details-text">Price: $500</text>
+                <button class="btn" type="capsule" value="Add to Cart" onclick="cart"></button>
+            </div>
+        </div>
+        <div class="card">
+            <image class="card-image" src="/common/images/Swift-3_SF314-42_front-facing.jpg"></image>
+            <div class="card-details">
+                <text class="card-details-text">Dell Inspiron</text>
+                <text class="card-details-text">Price: $350</text>
+                <button class="btn" type="capsule" value="Add to Cart" onclick="cart"></button>
+            </div>
+        </div>
+    </div>
+    <div class="last">
+        <text style="font-size: 15px;">Searching for custom built PCs? Click below</text>
+        <button class="btn" type="capsule" value="Build" onclick="build"></button>
+    </div>
+</div>
