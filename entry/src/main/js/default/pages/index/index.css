@@ -42,6 +42,18 @@
     justify-content: center;
 }
 
+.nav-items {
+    margin: 5px;
+}
+
+.btn{
+    width:100px;
+    align-self: center;
+    position: absolute;
+    right: 25px;
+    margin-top: 10px;
+}
+
 @media screen and (device-type: tablet) and (orientation: landscape) {
     .title {
         font-size: 100px;

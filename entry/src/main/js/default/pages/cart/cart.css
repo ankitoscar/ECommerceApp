@@ -6,6 +6,7 @@
     top: 0px;
     width: 454px;
     height: 454px;
+    flex-direction: column;
 }
 
 .title {
@@ -13,4 +14,40 @@
     text-align: center;
     width: 200px;
     height: 100px;
+}
+
+.items-container{
+    flex-direction: column;
+}
+
+.item {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.checkout{
+    display: flex;
+    flex-direction: column;
+}
+
+.item-details{
+    padding: 2px 16px;
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.item-details-text{
+    font-size: 15px;
+}
+
+.item-image{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.btn{
+    width:100px;
+    align-self: center;
 }

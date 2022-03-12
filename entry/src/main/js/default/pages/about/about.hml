@@ -17,5 +17,6 @@
     <button class="nav-items" type="capsule" value="Home" onclick="index"></button>
     <button class="nav-items" type="capsule" value="Contact" onclick="contact"></button>
     <button class="nav-items" type="capsule" value="Build" onclick="build"></button>
+        <button class="nav-items" type="capsule" value="Products" onclick="products"></button>
     </div>
 </div>

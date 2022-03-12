@@ -18,4 +18,9 @@ export default {
             uri: "pages/contact/contact",
         });
     },
+    products: function() {
+        router.push({
+            uri: "pages/products/products",
+        });
+    },
 };

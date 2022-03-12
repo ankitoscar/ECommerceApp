@@ -1,5 +1,20 @@
 <div class="container">
-    <text class="title">
-        Hello {{ title }}
-    </text>
+    <div class="title">
+        <text>Your Cart</text>
+    </div>
+    <div class="items-container">
+        <div class="item">
+            <image class="item-image" src="/common/images/Swift-3_SF314-42_front-facing.jpg"></image>
+            <div class="item-details">
+                <text class="item-details-text">Dell Inspiron</text>
+                <text class="item-details-text">Price: $350</text>
+                <button class="btn" type="capsule" value="Add to Cart" onclick="cart"></button>
+            </div>
+        </div>
+    </div>
+    <div class="checkout">
+        <text>Your Grand Total: $350</text>
+        <button class="btn" type="capsule" value="Checkout"></button>
+        <button class="btn" type="capsule" value="Home" onclick="index"></button>
+    </div>
 </div>

@@ -22,4 +22,14 @@ export default {
             uri: "pages/contact/contact",
         });
     },
+    products : function() {
+        router.push({
+            uri: "pages/products/products",
+        });
+    },
+    cart : function() {
+        router.push({
+            uri: "pages/cart/cart",
+        });
+    },
 };
