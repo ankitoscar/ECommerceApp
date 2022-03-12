@@ -49,7 +49,9 @@
           "pages/index/index",
           "pages/about/about",
           "pages/build/build",
-          "pages/contact/contact"
+          "pages/contact/contact",
+          "pages/cart/cart",
+          "pages/products/products"
         ],
         "name": "default",
         "window": {
