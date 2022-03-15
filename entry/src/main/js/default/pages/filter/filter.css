@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 454px;
+    height: 454px;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    align-self: center;
+}
+
+.listcontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.listhead{
+    margin: 5%;
+    align-self: center;
+}
+
+.filter-list{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+/* Style the buttons */
+.btn {
+    border: none;
+    padding: 12px 16px;
+    margin: 1%;
+}
+

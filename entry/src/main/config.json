@@ -51,7 +51,8 @@
           "pages/build/build",
           "pages/contact/contact",
           "pages/cart/cart",
-          "pages/products/products"
+          "pages/products/products",
+          "pages/filter/filter"
         ],
         "name": "default",
         "window": {

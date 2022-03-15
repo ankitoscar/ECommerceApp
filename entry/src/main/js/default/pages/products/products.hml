@@ -2,7 +2,10 @@
     <div class="title">
         <text>Products</text>
     </div>
-    <button type="capsule" value="Home" onclick="index"></button>
+    <div style="display: flex; flex-direction: row; margin-left: 100px;">
+        <button type="capsule" value="Home" onclick="index"></button>
+        <button type="capsule" value="Filter" onclick="filter"></button>
+    </div>
     <div class="card-container">
         <div class="card">
             <image class="card-image" src="/common/images/71nTZkJByLL._SL1500_.jpg"></image>

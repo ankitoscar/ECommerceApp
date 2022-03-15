@@ -1,0 +1,43 @@
+<div class="container">
+    <text class="title">
+        Filter
+    </text>
+    <div style="display: flex; flex-direction: row; margin-left: 80px;">
+        <button class="btn" type="capsule" value="Home" onclick="index">
+        </button>
+        <button class="btn" type="capsule" value="Products" onclick="products">
+        </button>
+    </div>
+    <div style="display: flex; flex-direction: column; margin-top: 10%;">
+        <div class="listcontainer">
+            <text class="listhead">
+                Select Brand
+            </text>
+            <list class="filter-list" style="margin-left: 50px; margin-top: 10px;">
+                <list-item>
+                    <button class="btn" type="capsule" value="Dell"></button>
+                </list-item>
+                <list-item>
+                    <button class="btn" type="capsule" value="Lenovo"></button>
+                </list-item>
+                <list-item>
+                    <button class="btn" type="capsule" value="Acer"></button>
+                </list-item>
+            </list>
+            <text class="listhead">
+                Price Range
+            </text>
+            <list class="filter-list" style="margin-top: 10px;">
+                <list-item>
+                    <button class="btn" type="capsule" value="Under $300"></button>
+                </list-item>
+                <list-item>
+                    <button class="btn" type="capsule" value="$300-$500"></button>
+                </list-item>
+                <list-item>
+                    <button class="btn" type="capsule" value="Above $500"></button>
+                </list-item>
+            </list>
+        </div>
+    </div>
+</div>

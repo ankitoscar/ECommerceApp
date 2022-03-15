@@ -18,4 +18,9 @@ export default {
             uri: "pages/cart/cart",
         });
     },
+    filter: function(){
+        router.push({
+            uri: "pages/filter/filter",
+        });
+    },
 }
